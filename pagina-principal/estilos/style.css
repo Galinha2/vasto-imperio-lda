@@ -77,7 +77,29 @@
 }
 
 @media screen and (min-width: 768px) {
-    .main {
+    .artigos a {
+        padding: 0px 30px;
+    }
+
+    #banner-pc {
+        width: 100vw;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #banner-pc {
+        width: 100vw;
     }
 }
 
+@media screen and (min-width: 1200px) {
+
+    .main {
+        width: 100vw;
+    }
+    
+    #banner-pc {
+       max-width: 1550px;
+    }
+}
