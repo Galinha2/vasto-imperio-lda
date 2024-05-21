@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-vasto-imperio.ico" type="image/x-icon">
+    <title>Login | Vásto Império</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    
+    <link href= "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <a href="../d014/index.html"><img id="logo" src="imagens/logo-vasto-imperio-mini.png" alt="logo-vasto-imperio"></a>
+
+    <article>
+
+        <i id="carrinha" class="material-icons">airport_shuttle</i>
+        <h2>
+            <span>|</span>Controla os teus pedidos
+        </h2>
+        <p>
+            Acompanha os teus pedidos e recebe notificações de seguimento
+        </p>
+
+        <i id="favoritos" class="material-icons">interests</i>
+        <h2>
+            <span>|</span>Lista de desejos personalizada
+        </h2>
+        <p>
+            Guarda os teus produtos favoritos na lista de desejos personalizada
+        </p>
+    </article>
+    <main>
+        <h1><span>|</span>Entra na tua conta Vásto Império!</h1>
+
+        <form id="box1" action="login.php" autocomplete="on" method="post">
+            <label for="imal"><i id="conta" class="material-icons">account_circle</i></label>
+                <input class="login" type="email" name="email" id="iemail" required placeholder="    Email" autocomplete="email">
+
+            <label for="ipass"><i id="pass" class="material-icons">lock</i></label>
+                <input class="login" type="password" name="pass" id="ipass" required placeholder="    Password" autocomplete="current-password">
+
+            <div id="save">
+                <input type="checkbox" name="save" id="isave">
+                <label for="isave">Guardar Sessão</label>
+            </div>
+            <p id="esqueci-pass"><a href="#">Esqueci-me da password!</a></p>
+        </form>
+
+        <form id="submit" action="login.php">
+            <input id="iniciar-sessao" type="submit" value="INICIAR SESSÃO">
+            <p>ou</p>
+            <input id="criar-conta" type="submit" value="CRIAR CONTA">
+        </form>
+
+        <p id="declaracoes" >Ao iniciar sessão, declaro que li e aceito os <a href="#">Termos e Condições</a>, e o uso dos meus dados pessoais como explicado pela <a href="#">Política de Privacidade</a>.</p>
+
+    </main>
+</body>
+</html>

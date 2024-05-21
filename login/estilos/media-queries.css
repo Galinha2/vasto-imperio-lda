@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/* TELA TABLET */
+@media screen and (min-width: 768px) {
+    main {
+        width: 85vw;
+    }
+
+    main h1 {
+        font-size: 1.7em;
+    }
+
+    #box1 {
+        margin-top: 60px;
+    }
+
+    .login {
+        width: 80vw;
+    }
+
+    #save {
+        position: absolute;
+        right: 9vw;
+    }
+
+    #esqueci-pass a {
+        top: 28px;
+    }
+
+    #submit {
+        position: relative;
+        top: 80px;
+    }
+
+    #submit input {
+        width: 210px;
+    }
+
+    #criar-conta {
+        margin-top: 110px;
+    }
+
+    #declaracoes {
+        margin-top: 150px;
+    }
+}
+
+/* TELA COMPUTADOR */
+@media screen and (min-width: 992px) {
+    article {
+        display: block;
+    }
+
+    main h1 {
+        text-align: left;
+    }
+
+    main {
+        min-width: 400px;
+        width: 41vw;
+        max-width: 600px;
+        margin-left: 40px;
+        height: 580px;
+        transition: 0s;
+    }
+
+    .login {
+        width: 37vw;
+        transition: 0s;
+    }
+
+    #save {
+        right: 55vw;
+    }
+
+}
+
+/* TELA GRANDE */
+@media screen and (min-width: 1200px) {
+
+    main {
+        position: absolute;
+        width: 750px;
+        right: 590px;
+    }   
+
+    main h1 {
+        font-size: 2em;
+    }
+
+    .login {
+        width: 550px;
+    }
+
+    #save {
+        left: 265px;
+        width: 140px;
+    }
+
+    #submit {
+        margin-top: 0px;
+    }
+
+    #submit p {
+        position: relative;
+        top: -45px;
+    }
+
+    #iniciar-sessao {
+        position: relative;
+        left: -194px;
+    }
+
+    #criar-conta {
+        position: relative;
+        left: 188px;
+        top: -88px;
+    }
+
+    #declaracoes {
+        margin-top: 100px;
+    }
+}
+
+article {
+    position: absolute;
+    width: 400px;
+    height: 580px;
+    padding: 20px;
+    border-radius: 2px;
+    line-height: 25px;
+    right: 8vw;
+}
+
+article p, h2 {
+    position: relative;
+    margin-left: 80px;
+    top: 20px;
+}
+
+article i {
+    position: relative;
+    left: 15px;
+}
+
+#carrinha {
+    font-size: 4em;
+    font-weight: 100;
+    top: 45px;
+}
+
+article p {
+    margin-bottom: 50px;
+}
+
+#favoritos {
+    font-size: 4em;
+    font-weight: 100;
+    top: 170px;
+}

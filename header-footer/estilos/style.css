@@ -17,16 +17,18 @@ html, body {
 main {
     background-color: rgb(227, 227, 227);
     width: 100vw;
-    height: 100vh;
+  
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 header {
     background-color: var(--corvastologo);
-    box-shadow: 0px 0px 7px rgba(136, 136, 136, 0.493);
+    box-shadow: 0px 0px 5px rgba(72, 72, 72, 0.352);
     height: 135px;
     width: 100vw;
+    z-index: 999;
 }
 
 article {
@@ -134,4 +136,135 @@ footer p {
     text-align: center;
     margin: auto;
     font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .artigo {
+        display: flex;
+        align-items: center;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        flex: 1 1 auto;
+    }
+
+    .artigo p {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    header {
+        background-color: white;
+        height: 90px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #logo {
+        background: url(../../imagens/logo-vasto-imperio-mini.png) center center no-repeat;
+        background-size: 100px;
+    }
+
+    #menu-logo {
+        display: block;
+        align-self: center;
+        margin-right: 10px;
+        order: -1;
+    }
+
+    input {
+        background-color: rgb(237, 237, 237);
+        flex: 1 1 100px;
+        order: 2;
+        margin: 20px;
+        height: 35px;
+    }
+
+    i {
+        color: var(--corvastologo);
+    }
+
+    #menu {
+        color: var(--corvastologo);
+        display: none;
+    }
+
+    #conta {
+        color: var(--corvastologo);
+    }
+
+    #carrinho {
+        color: var(--corvastologo);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    header {
+        align-self: flex-start;
+        order: -100;
+    }
+
+    article {
+        max-width: 1550px;
+        margin: auto;
+        padding: 0px 20px;
+        align-self: flex-start;
+    }
+
+    #lista {
+        display: block;
+        order: 2;
+        padding-top: 30px;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: -15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: var(--corvastologo);
+        text-decoration: underline;
+        transition: .2s;
+    }
+
+    input {
+        flex: 1 1 10vw;
+    }
+
+    footer p {
+        align-self: flex-end;
+        line-height: 1.5em;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .artigo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex: 1 1 auto;
+    }
+
+    .artigo p {
+        text-align: left;
+    }
 }

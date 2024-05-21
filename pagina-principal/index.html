@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../imagens/" type="image/x-icon">
-    <title>Menu Flexbox</title>
+    <link rel="shortcut icon" href="../imagens/favicon-vasto-imperio.ico" type="image/x-icon">
+    <title>Vásto Império | Página Principal</title>
     <link rel="stylesheet" href="estilos/style.css" media="all">
+
+    <link rel="stylesheet" href="../header-footer/estilos/style.css"> 
 
     <link href= "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -28,12 +30,37 @@
                 </ul>
                 <input type="text" name="pesquisa" id="ipesquisa" placeholder="🔍 Escreva aqui o que procura">
                 <div class="icons">
-                    <a href="../d015/index.html"><i id="conta" class="material-icons">person</i></a>
+                    <a href="../login/index.html"><i id="conta" class="material-icons">person</i></a>
                     <i id="carrinho" class="material-icons">shopping_bag</i>
                     <i id="menu" class="material-icons">menu</i>
             </article>
         </header>
 
+        <div class="main">
+
+            <picture>
+
+                <source id="banner-mobile" media="(max-width: 992px )" srcset="../imagens/banner-mobile.jpg" type="image/jpg">
+
+                <img id="banner-pc" src="../imagens/banner.jpg" alt="banner-grande">
+
+            </picture>
+
+            <div id="main-artigos">
+
+                <div class="artigos">
+                    <a href="#"> <img class="selecao-artigos" src="../imagens/estantes-racks-para-paletes.jpg.png" alt="estantes">Carga Pesada</a>
+
+                    <a href="#"> <img class="selecao-artigos" src="../imagens/estantes-paletizacao-convencional.jpg.png" alt="estantes">Estantes </a>
+
+                    <a href="#"> <img class="selecao-artigos" src="../imagens/estantes-paletizacao-convencional.jpg.png" alt="estantes">Estantes </a>
+                
+                </div>
+
+            </div>
+
+        </div>
+  
         <footer>
             <article class="artigo">
                 <p> @2024 VASTO IMPÉRIO. Todos os direitos reservados.</p>
