@@ -18,7 +18,6 @@
 }
 
 .main {
-    height: 100vh;
     max-width: 1580px;
     margin: auto;
     background-color: var(--corfundocinzento);
@@ -89,7 +88,7 @@ a:hover {
     margin-top: 20px;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     box-shadow: var(--sombreado);
 }
 
@@ -122,7 +121,9 @@ button:hover {
 
 .artigos {
     display: flex;
+    align-self: center;
     justify-content: center;
+    margin: auto;
     flex-flow: row wrap;
     margin-top: 20px;
     background-color: #ffffff;
@@ -149,8 +150,9 @@ button:hover {
 }
 
 #referencia {
-    display: inline-block;
+    width: 100vw;
     text-align: left;
     font-size: .8em;
-    margin-left: -200px;
+    margin-top: 10px;
+    
 }
