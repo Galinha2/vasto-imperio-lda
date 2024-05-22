@@ -33,12 +33,14 @@
     width: 100vw;
     height: auto;
     display: block;
+    cursor: pointer;
 }
 
 #banner-pc {
     width: 100vw;
     height: auto;
     display: block;
+    cursor: pointer;
 }
 
 .classes {
