@@ -1,0 +1,32 @@
+@charset "UFT-8";
+
+/*TABLET*/
+@media screen and (min-width: 768px) {
+    .artigos a {
+        padding: 0px 30px;
+    }
+
+    #banner-pc {
+        width: 100vw;
+    }
+
+}
+
+/*COMPUTADOR*/
+@media screen and (min-width: 992px) {
+    #banner-pc {
+        width: 100vw;
+    }
+}
+
+/*TELAS GRANDES*/
+@media screen and (min-width: 1200px) {
+
+    .main {
+        width: 100vw;
+    }
+    
+    #banner-pc {
+       max-width: 1580px;
+    }
+}

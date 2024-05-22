@@ -6,19 +6,24 @@
     font-family: Arial, Helvetica, sans-serif;
     --corvastoimperio: #0072BB;
     --corvastologo: #FF6000;
+    --corfundocinzento: #F6F6F6;
+    --corfundobranco: #FBFBFB;
+    --sombreado: 0px 0px 5px #c2c2c23e;
+}
+
+#traco {
+    font-size: 1.4em;
+    font-weight: 900;
+    color: var(--corvastologo);
 }
 
 .main {
     height: 100vh;
-    max-width: 1550px;
+    max-width: 1580px;
     margin: auto;
-    background-color: rgb(227, 227, 227);
+    background-color: var(--corfundocinzento);
     display: flex;
     flex-flow: column nowrap;
-}
-
-.artigos {
-    background-color: white;
 }
 
 #banner-mobile {
@@ -33,13 +38,14 @@
     display: block;
 }
 
-#main-artigos {
+.classes {
     padding: 25px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
+    background-color: var(--corfundobranco);
+    margin-top: 20px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    box-shadow: var(--sombreado);
 }
 
 .artigos a {
@@ -54,15 +60,16 @@
     line-height: 2em;
     display: inline-block;
     padding: 0px 8px;
+    font-size: .9em;
 }
 
 .selecao-artigos {
-    width: 100px;
+    width: 80px;
+    height: 80px;
     display: block;
-    background-color: rgb(255, 255, 255);
     border-radius: 50px;
-    box-shadow: 0px 0px 7px rgb(219, 219, 219);
-    border: 2px solid rgb(195, 195, 195);
+    border: 2px solid rgb(214, 214, 214);
+    padding: 5px;
 }
 
 .selecao-artigos:hover {
@@ -76,30 +83,20 @@
     transition: .2s;
 }
 
-@media screen and (min-width: 768px) {
-    .artigos a {
-        padding: 0px 30px;
-    }
-
-    #banner-pc {
-        width: 100vw;
-    }
-
+.main-artigos {
+    padding: 25px;
+    background-color: var(--corfundobranco);
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    box-shadow: var(--sombreado);
 }
 
-@media screen and (min-width: 992px) {
-    #banner-pc {
-        width: 100vw;
-    }
+h2 {
+    font-weight: 500;
+    font-size: 1.3em;
+    align-self: flex-start;
+    display: inline-block;
 }
 
-@media screen and (min-width: 1200px) {
-
-    .main {
-        width: 100vw;
-    }
-    
-    #banner-pc {
-       max-width: 1550px;
-    }
-}
