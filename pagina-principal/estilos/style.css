@@ -15,6 +15,11 @@
     color: #0072bb;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 #traco {
     font-size: 1.4em;
     font-weight: 900;
@@ -53,7 +58,7 @@
     box-shadow: var(--sombreado);
 }
 
-a {
+.classes a {
     color: black;
     text-decoration: none;
     text-align: center;
@@ -66,6 +71,7 @@ a {
     display: inline-block;
     padding: 0px 8px;
     font-size: .9em;
+    height: 120px;
 }
 
 .selecao-artigos {
@@ -79,8 +85,11 @@ a {
 
 .selecao-artigos:hover {
     border: 2px solid var(--corvastologo);
-    transition: box-shadow .5s;
+    transition: .5s;
     box-shadow: 0px 0px 7px var(--corvastologo);
+    width: 85px;
+    height: 85px;
+    margin: 0px -2.5px;
 }
 
 a:hover {
@@ -111,10 +120,11 @@ h2 {
     display: inline-block;
 }
 
-button {
+#titulo a {
     background-color: var(--corfundocinzento);
     border: 1px solid black;
     padding: 7px;
+    align-self: center;
     border-radius: 5px;
     font-weight: bold;
     color: black;
@@ -122,7 +132,7 @@ button {
     transition: .1s;
 }
 
-button:hover {
+#titulo a:hover {
     color: var(--corvastologo);
     border: 1px solid var(--corvastologo);
     cursor: pointer;
