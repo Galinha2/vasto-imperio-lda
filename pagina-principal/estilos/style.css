@@ -127,8 +127,8 @@ button:hover {
     flex-flow: row wrap;
     margin-top: 20px;
     background-color: #ffffff;
-    width: 60vw;
-    padding: 10px;
+    width: 300px;
+    padding: 10px 5px;
     border-radius: 5px;
     box-shadow: var(--sombreado);
 }
@@ -137,10 +137,12 @@ button:hover {
     font-size: .9em;
     text-align: left;
     font-weight: 600;
+    width: 100vw;
+    padding: 0px;
 }
 
 #img-novidades {
-    width: 60vw;
+    width: 300px;
     display: block;
 }
 
@@ -154,5 +156,22 @@ button:hover {
     text-align: left;
     font-size: .8em;
     margin-top: 10px;
-    
 }
+
+#icon-stock {
+    color: rgb(0, 171, 0);
+    font-size: 1em;
+    font-weight: bold;
+    width: 100vw;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#preço {
+    color: var(--corvastologo);
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100vw;
+    margin-top: 10px;
+}
+
