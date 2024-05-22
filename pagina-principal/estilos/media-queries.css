@@ -15,6 +15,22 @@
     #titulo {
         width: 90vw;
     }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .artigos a {
+        font-size: 1em;
+    }
+
+    #descricao {
+        font-size: .8em;
+    }
+
+    #preço {
+        font-size: 1.5em;
+    }
 }
 
 /*COMPUTADOR*/
@@ -33,4 +49,5 @@
     #banner-pc {
        max-width: 1580px;
     }
+
 }

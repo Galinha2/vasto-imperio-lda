@@ -85,7 +85,7 @@ a {
 
 a:hover {
     color: var(--corvastologo);
-    transition: .2s;
+    transition: .1s;
 }
 
 .main-artigos {
@@ -118,6 +118,8 @@ button {
     border-radius: 5px;
     font-weight: bold;
     color: black;
+    font-size: .9em;
+    transition: .1s;
 }
 
 button:hover {
