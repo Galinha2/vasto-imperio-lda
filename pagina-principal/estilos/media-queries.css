@@ -20,6 +20,10 @@
         font-size: 1.5em;
     }
 
+    .artigos {
+        height: 550px;
+    }
+
     .artigos a {
         font-size: 1em;
     }
