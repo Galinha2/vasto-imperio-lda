@@ -11,6 +11,10 @@
     --sombreado: 0px 0px 5px #c2c2c23e;
 }
 
+.material-symbols-outlined {
+    color: #0072bb;
+}
+
 #traco {
     font-size: 1.4em;
     font-weight: 900;
@@ -95,6 +99,7 @@ a:hover {
 #titulo {
     display: flex;
     justify-content: space-between;
+    height: 40px;
 }
 
 h2 {
@@ -124,13 +129,18 @@ button:hover {
     align-self: center;
     justify-content: center;
     margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     flex-flow: row wrap;
     margin-top: 20px;
     background-color: #ffffff;
     width: 300px;
+    flex: 1 2 300px;
     padding: 10px 5px;
     border-radius: 5px;
     box-shadow: var(--sombreado);
+    height: 500px;
+    max-width: 350px;
 }
 
 .artigos a {
@@ -144,6 +154,13 @@ button:hover {
 #img-novidades {
     width: 300px;
     display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+#img-novidades:hover {
+    margin-bottom: 3px;
+    width: 297px;
 }
 
 #descricao {
@@ -158,13 +175,24 @@ button:hover {
     margin-top: 10px;
 }
 
+#stock {
+    margin-top: 5px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(0, 171, 0);
+    align-self: center;
+    font-size: .9em;
+}
+
 #icon-stock {
     color: rgb(0, 171, 0);
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
-    width: 100vw;
-    margin-top: 10px;
     display: inline-block;
+    margin-right: 10px;
+    align-self: center;
+    justify-content: center;
 }
 
 #preço {
@@ -172,6 +200,24 @@ button:hover {
     font-weight: bold;
     font-size: 1.2em;
     width: 100vw;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
+#favoritos{
+    color: black;
+    font-size: .8em;
+    display: flex;
+    width: 100vw;  
+    margin-top: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#icon-favoritos {
+    font-weight: bolder;
+    align-items: center;
+}
+
+#favoritos:hover, #icon-favoritos:hover {
+    color: var(--corvastologo);
+}

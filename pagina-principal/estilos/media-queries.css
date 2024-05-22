@@ -2,14 +2,19 @@
 
 /*TABLET*/
 @media screen and (min-width: 768px) {
-    .artigos a {
-        padding: 0px 30px;
-    }
-
     #banner-pc {
         width: 100vw;
     }
 
+    .main-artigos {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    #titulo {
+        width: 90vw;
+    }
 }
 
 /*COMPUTADOR*/
@@ -21,7 +26,6 @@
 
 /*TELAS GRANDES*/
 @media screen and (min-width: 1200px) {
-
     .main {
         width: 100vw;
     }
