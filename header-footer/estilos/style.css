@@ -64,6 +64,7 @@ span {
     font-weight: 100;
     font-size: .5em;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 input {
@@ -237,7 +238,7 @@ footer p {
         color: black;
     }
 
-    a:hover {
+    .novidades-oferta:hover {
         color: var(--corvastologo);
         text-decoration: underline;
         transition: .2s;

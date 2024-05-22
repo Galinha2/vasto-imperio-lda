@@ -193,6 +193,7 @@ button:hover {
     font-weight: bold;
     display: inline-block;
     margin-right: 10px;
+    margin-left: 0px;
     align-self: center;
     justify-content: center;
 }
@@ -218,6 +219,7 @@ button:hover {
 #icon-favoritos {
     font-weight: bolder;
     align-items: center;
+    margin-left: 0px;
 }
 
 #favoritos:hover, #icon-favoritos:hover {
