@@ -3,10 +3,19 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "segoe", Arial, Helvetica, sans-serif;
+    src: url(../../fontes/segoe-ui-4-cufonfonts/Segoe\ UI.ttf) format("truetype");
     --corvastoimperio: #0072BB;
     --corvastologo: #FF6000;
     --corfundocinzento: #F6F6F6;
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url(../../fontes/segoe-ui-4-cufonfonts/Segoe\ UI.ttf) format("truetype");
+    src: url(../../fontes/segoe-ui-4-cufonfonts/Segoe\ UI\ Bold\ Italic.ttf) format("truetype");
+    src: url(../../fontes/segoe-ui-4-cufonfonts/Segoe\ UI\ Bold.ttf.ttf) format("truetype");
+    src: url(../../fontes/segoe-ui-4-cufonfonts/Segoe\ UI\ Italic.ttf.ttf) format("truetype");
 }
 
 html, body {
@@ -244,7 +253,7 @@ footer p {
     #lista span{
         margin-left: 0px;
     }
-    
+
     .novidades-oferta:hover {
         color: var(--corvastologo);
         text-decoration: underline;
