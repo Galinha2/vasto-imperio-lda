@@ -46,6 +46,7 @@ a {
     height: auto;
     display: block;
     cursor: pointer;
+    margin: auto;
 }
 
 .classes {
@@ -105,6 +106,7 @@ a:hover {
     flex-flow: column wrap;
     justify-content: space-evenly;
     box-shadow: var(--sombreado);
+    margin-bottom: 20px;
 }
 
 #titulo {
