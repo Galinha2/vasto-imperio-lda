@@ -66,8 +66,8 @@ a {
     align-self: flex-start;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center; 
-    align-items: center;  
+    justify-content: center;
+    align-items: center;
     line-height: 2em;
     display: inline-block;
     padding: 0px 8px;
@@ -100,13 +100,14 @@ a:hover {
 
 .main-artigos {
     padding: 25px;
-    background-color: var(--corfundobranco);
+    background-color: var(--);
     margin-top: 20px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
     box-shadow: var(--sombreado);
     margin-bottom: 20px;
+    gap: 5px;
 }
 
 #titulo {
@@ -219,11 +220,11 @@ h2 {
     margin-top: 5px;
 }
 
-#favoritos{
+#favoritos {
     color: black;
     font-size: .8em;
     display: flex;
-    width: 100vw;  
+    width: 100vw;
     margin-top: 10px;
     align-items: center;
     cursor: pointer;
@@ -235,6 +236,7 @@ h2 {
     margin-left: 0px;
 }
 
-#favoritos:hover, #icon-favoritos:hover {
+#favoritos:hover,
+#icon-favoritos:hover {
     color: var(--corvastologo);
 }
