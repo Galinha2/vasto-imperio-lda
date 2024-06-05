@@ -1,5 +1,5 @@
 # vasto-imperio-lda
-<h1>Apresento um projeto de um website de vendas de estantes, prateleiras e mobiliário de escritório, desenvolvido única e inteiramente com HTML e CSS puro.</h1>
+<h2>Apresento um projeto de um website de vendas de estantes, prateleiras e mobiliário de escritório, desenvolvido única e inteiramente com HTML e CSS puro.</h2>
 
 
 Aceda ao website aqui:
